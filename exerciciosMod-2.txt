@@ -5,29 +5,29 @@
 "10" / 3 = 3,3333333333333335
 "10" % 3 = 1
 10 + verdadeiro = 11
-10 == "10" = true (tipo coerção é aplicada, então a string "10" é convertida para o número 10)
-10 === "10" = false (o operador de igualdade estrita verifica tanto o valor quanto o tipo, e eles são diferentes)
+10 == "10" = true 
+10 === "10" = false 
 10 < 11 = verdadeiro
 10 > 12 = falso
 10 <= 10,1 = verdadeiro
 10 > 9,99 = verdadeiro
-10 != "dez" = true (tipo de coerção é aplicada, então a string "dez" é convertida em NaN, que não é igual a 10)
+10 != "dez" = true 
 10 + verdadeiro = 11
 "dez" + true = "deztrue"
 10 + falso = 10
 10 * falso = 0
-verdadeiro + verdadeiro = 2 (verdadeiro é coagido a 1 no contexto numérico)
-10++ = 10 (operador pós-incremento retorna o valor original da variável, que é então incrementado)
-10-- = 10 (operador pós-decremento retorna o valor original da variável, que é então decrementado)
-1 & 1 = 1 (o operador AND bit a bit retorna 1 somente se ambos os bits forem 1)
+verdadeiro + verdadeiro = 2 
+10++ = 10 
+10-- = 10 
+1 & 1 = 1 
 1 & 0 = 0
 0 & 0 = 0
 0 / 1 = 0
 5 + 5 == 10 = verdadeiro
-"5" + "5" == 10 = false (o operador de concatenação de cadeia de caracteres é usado em vez de adição, então o resultado é "55", que não é igual a 10)
-"5" * 2 > 9 = verdadeiro (a cadeia "5" é coagida ao número 5, e a multiplicação produz 10, que é maior que 9)
-(10 + 10) * 2 = 40 (parênteses são usados para indicar a ordem das operações, então a adição é realizada primeiro, depois a multiplicação)
-10 + 10 * 2 = 30 (a multiplicação tem maior precedência do que a adição, por isso é realizada primeiro)
+"5" + "5" == 10 = false 
+"5" * 2 > 9 = verdadeiro 
+(10 + 10) * 2 = 40 
+10 + 10 * 2 = 30 
 
 2. Responda as perguntas de acordo com as variáveis.
 var branco = “preto”;
@@ -49,4 +49,4 @@ b) A expressão "branco == cinza" é falsa, pois a variável "branco" contém a 
 c) A expressão "carro === branco" é falsa, pois a variável "carro" contém a string "preto", que é diferente da string "branco".
 d) A variável "cavalo" será igual a "cinza", pois a expressão "carro == 'preto'" é verdadeira, então a variável "cavalo" recebe o valor da string "cinza". Se a expressão fosse falsa, a variável "cavalo" receberia o valor da string "marron".
 e) O valor do carro é de R$30.000,00 e a entrada é de R$3.000,00, portanto o valor a ser financiado é de R$27.000,00. Dividindo esse valor pelo valor da prestação, temos: 27.000 / 750 = 36 prestações.
-f) A soma das variáveis de cores resulta na string "preto-cinza-branco", que possui 17 caracteres.
+f) A soma das variáveis de cores resulta na string "pretocinzabranco", que possui 15 caracteres.
