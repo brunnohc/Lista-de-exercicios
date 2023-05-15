@@ -1,33 +1,33 @@
 1. Resolva as operações:
-10 + 15 = 25
-"10" + 2 = "102"
-"10" * 2 = 20
-"10" / 3 = 3,3333333333333335
-"10" % 3 = 1
-10 + verdadeiro = 11
-10 == "10" = true 
-10 === "10" = false 
-10 < 11 = verdadeiro
-10 > 12 = falso
-10 <= 10,1 = verdadeiro
-10 > 9,99 = verdadeiro
-10 != "dez" = true 
-10 + verdadeiro = 11
-"dez" + true = "deztrue"
-10 + falso = 10
-10 * falso = 0
-verdadeiro + verdadeiro = 2 
-10++ = 10 
-10-- = 10 
-1 & 1 = 1 
-1 & 0 = 0
-0 & 0 = 0
-0 / 1 = 0
-5 + 5 == 10 = verdadeiro
-"5" + "5" == 10 = false 
-"5" * 2 > 9 = verdadeiro 
-(10 + 10) * 2 = 40 
-10 + 10 * 2 = 30 
+10 + 15 = 25 (number)
+"10" + 2 = "102" (string)
+"10" * 2 = 20 (number)
+"10" / 3 = 3,3333333333333335 (number)
+"10" % 3 = 1 (number)
+10 + verdadeiro = 11 (number)
+10 == "10" = true (booleano)
+10 === "10" = false (booleano)
+10 < 11 = verdadeiro (booleano)
+10 > 12 = falso (booleano)
+10 <= 10,1 = verdadeiro (booleano)
+10 > 9,99 = verdadeiro (booleano)
+10 != "dez" = true (booleano)
+10 + verdadeiro = 11 (number)
+"dez" + true = "deztrue" (string)
+10 + falso = 10 (number)
+10 * falso = 0 (number)
+verdadeiro + verdadeiro = 2 (number) 
+10++ = 10 (number)
+10-- = 10 (number)
+1 & 1 = 1 (number)
+1 & 0 = 0 (number)
+0 & 0 = 0 (number)
+0 / 1 = 0 (number)
+5 + 5 == 10 = verdadeiro (booleano)
+"5" + "5" == 10 = false (booleano)
+"5" * 2 > 9 = verdadeiro (booleano)
+(10 + 10) * 2 = 40 (number)
+10 + 10 * 2 = 30 (number)
 
 2. Responda as perguntas de acordo com as variáveis.
 var branco = “preto”;
